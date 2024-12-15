@@ -21,24 +21,13 @@
 
       body {
         top: 0px !important;
-        background-image: url('/d283df93-e88d-4aa2-94bb-f864a3aa8392.jpeg'); /* Background image */
+        background-image: url('/d283df93-e88d-4aa2-94bb-f864a3aa8392.jpeg'); /* Add your background image */
         background-size: cover; /* Ensure the image covers the viewport */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Prevent tiling */
-        min-height: 100vh; /* Full viewport height */
-        margin: 0; /* Remove default margin */
-        color: white; /* Text color */
-        display: flex; /* Use flexbox for alignment */
-        justify-content: center; /* Center content horizontally */
-        align-items: center; /* Center content vertically */
-      }
-
-      /* Ensure the background image fits on all screen sizes, including mobile */
-      @media (max-width: 767px) {
-        body {
-          background-size: cover; /* Ensure full coverage */
-          background-position: center; /* Maintain centered image */
-        }
+        min-height: 100vh; /* Ensure the body takes up full viewport height */
+        margin: 0; /* Reset body margin */
+        color: white; /* Set text color to ensure readability */
       }
 
       /* Media query to hide specific elements during printing */
